@@ -11,8 +11,8 @@ bool checkprime(int input);
 
 int main()
 {
-	fstream data;
-	data.open("Prime.dat");
+	ofstream data;
+	data.open("Prime.txt");
 
 	int max = 1000000;
 	bool p = false;
